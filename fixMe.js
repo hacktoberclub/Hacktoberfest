@@ -16,7 +16,7 @@ for(let i = 0; i < friend1.length; i++){
             mutualFriends.push(friend1[i]);
             console.log('A change has been made in mutual friends');
         } else{
-          console.errpr("An Error has happened, Please check your code and try again.");
+            console.error("An Error has happened, Please check your code and try again.");
         }
     }
 }
