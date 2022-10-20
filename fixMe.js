@@ -26,4 +26,17 @@ console.log(mutualFriends);
 // Now you try 
 // Happy hacking!
 
+const group1 = ["jimmy", "Timmy", "james","Megan","Ezra","brice"];
+const group2 = ["Jane", "Timmy","Megan", "Ezra"];
+const same_friends = [];
 
+for(let b = 0; b < group1.length; b++){
+for(let c = 0; c < group2.length; c++){
+if(group1 === group2){
+	same_friends.push(group2[c]);
+}else{
+	console.log("There was an error");
+}
+
+}
+}
