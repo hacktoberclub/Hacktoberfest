@@ -22,3 +22,18 @@ console.log(Ezra.greet());
 // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // now it's your turn happy hacking!
+
+class Car{
+  constructor(door, model, type){
+    this.door = door;
+    this.model = model;
+    this.type = type;
+  }
+
+  method(){
+    console.log(`My car has ${this.door} the model of my car is ${this.model} and my car is ${this.type}`);
+  }
+}
+
+const ford = new Car(4, "ford fusion", "gas");
+ford.method();
